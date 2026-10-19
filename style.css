@@ -313,15 +313,15 @@ video {
 }
 
 .info-value.inf-txt-show span:first-child {
-    color: red;
-    font-size: 40px;
     position: absolute;
     top: 10px;
     right: 30px;
-    font-weight: bolder;
-    font-family: cursive, sans-serif;
     cursor: pointer;
     transition: 0.5s;
+}
+
+#headInfoText img {
+    width: 60px;
 }
 
 .info-value.inf-txt-show span:last-child {
@@ -462,24 +462,16 @@ video {
 
 .nav-menu span {
     position: absolute;
-    top: -30px;
-    transform: rotate(179deg);
-    font-size: 40px;
-    font-family: cursive;
-    backdrop-filter: blur(80px);
-    color: red;
-    border-radius: 25%;
-    width: 40px;
-    text-align: center;
+    top: -25px;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.nav-menu span:hover {
-    border: 1px solid;
-    font-size: 25px;
-    top: -20px;
+#return-the-nav-bar img {
+    width: 30px;
+    backdrop-filter: blur(53px);
 }
+
 
 .nav-menu li a {
     text-decoration: none;
@@ -536,15 +528,13 @@ video {
 
 #head-parameter-page {
     position: absolute;
-    top: 15px;
-    right: 50px;
-    font-size: 40px;
+    top: 10px;
+    right: 10px;
     cursor: pointer;
-    color: #ff0000;
-    border: 4px solid;
-    padding: 2px;
-    width: 40px;
-    text-align: center;
+}
+
+#head-parameter-page img {
+    width: 60px;
 }
 
 #color-ereas {
@@ -554,6 +544,7 @@ video {
     border: 10px solid;
     margin: 120px 40% 20px;
 }
+
 
 .parent h2 {
     margin: 95px 0px -95px;
@@ -683,6 +674,7 @@ video {
         height: 60px;
         width: 80%;
         left: 10%;
+        padding-top: 10px;
     }
 
     .nav-menu li,
