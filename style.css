@@ -510,7 +510,7 @@ video {
     width: 50%;
     height: 100%;
     background-color: aqua;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 101;
     transform: translateX(200%);
@@ -581,10 +581,10 @@ video {
     background-color: #b0b0b0c4;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .simple {
-        width: 145px;
-        height: 130px;
+        width: 130px;
+        height: 120px;
         margin-top: 50px;
     }
 
@@ -595,7 +595,7 @@ video {
 
     .securite {
         height: 100%;
-        font-size: 110px;
+        font-size: 100px;
         border-radius: 25px;
     }
 
@@ -670,5 +670,40 @@ video {
         right: 20px;
         font-weight: normal;
         border-width: 4px;
+    }
+
+    .toggel {
+        right: 40px;
+        top: 15px;
+        width: 50px;
+        height: 30px;
+    }
+
+    .nav-menu {
+        height: 60px;
+        width: 80%;
+        left: 10%;
+    }
+
+    .nav-menu li,
+    .nav-menu a {
+        font-size: 25px !important;
+    }
+
+    #color-ereas {
+        padding: 2px;
+    }
+
+    #head-parameter-page {
+        top: 10px;
+        right: 15px;
+        width: 35px;
+        padding: 0px;
+    }
+
+    .parent h2 {
+        font-size: 20px;
+        font-weight: normal;
+        padding: 2px;
     }
 }

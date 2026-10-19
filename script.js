@@ -159,7 +159,7 @@ bergerToggell.onclick = function() {
     document.body.style.cssText = `background-color: ${window.localStorage.getItem("color-body-custumise")} ; margin-top: 120px;`
     // translate the body for make a space for nav menu
     navMenu.classList.add("inf-txt-show")
-    hr.style = 'top: 230px;'
+    hr.style = 'top: 320px;'
     playAgain.style = 'margin-top: 80px;'
     trysParent.style = 'margin-top: 80px;'
     scoorParent.style = 'margin-top: 80px;'
@@ -179,8 +179,8 @@ xForHeadInfoCard.onclick = function() {
 // reset the space of the nav menu remove
 headNav.onclick = function() {
     navMenu.classList.remove("inf-txt-show");
-    document.body.style = 'margin-top: 0px;';
-    hr.style = 'top: 165px;';
+    document.body.style = 'margin-top: 50px;';
+    hr.style = 'top: 240px;';
     playAgain.style = 'margin-top: 0px;';
     trysParent.style = 'margin-top: 0px;';
     scoorParent.style = 'margin-top: 0px;';
